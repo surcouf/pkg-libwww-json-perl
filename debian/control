@@ -1,0 +1,33 @@
+Source: libwww-json-perl
+Section: perl
+Priority: optional
+Maintainer: Raphaël 'SurcouF' Bordet <surcouf@>
+Build-Depends: debhelper (>= 9.20120312),
+ perl
+Build-Depends-Indep: libjson-xs-perl (>= 2.33),
+ libmoo-perl (>= 1.001),
+ libnet-oauth-perl (>= 0.28),
+ libsafe-isa-perl (>= 1.000003),
+ libtest-mock-lwp-dispatch-perl (>= 0.06),
+ libtry-tiny-perl (>= 0.12),
+ liburi-perl,
+ libwww-perl
+Standards-Version: 3.9.5
+Homepage: https://metacpan.org/release/WWW-JSON
+
+Package: libwww-json-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+ libjson-xs-perl (>= 2.33),
+ libmoo-perl (>= 1.001),
+ libnet-oauth-perl (>= 0.28),
+ libsafe-isa-perl (>= 1.000003),
+ libtry-tiny-perl (>= 0.12),
+ liburi-perl,
+ libwww-perl
+Description: Make working with JSON Web API's as painless as possible
+ WWW::JSON is an easy interface to any modern web API that returns JSON.
+ .
+ It tries to make working with these API's as intuitive as possible.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
