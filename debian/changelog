@@ -1,5 +1,11 @@
+libwww-json-perl (1.01-1ubuntu1) trusty; urgency=medium
+
+  * Backported to Ubuntu trusty. 
+
+ -- Raphaël 'SurcouF' Bordet <surcouf@debianfr.net>  Sat, 09 May 2015 23:01:59 +0200
+
 libwww-json-perl (1.01-1) unstable; urgency=low
 
   * Initial Release.
 
- -- Raphaël 'SurcouF' Bordet <surcouf@>  Sat, 9 May 2015 22:57:21 +0200
+ -- Raphaël 'SurcouF' Bordet <surcouf@debianfr.net>  Sat, 9 May 2015 22:57:21 +0200

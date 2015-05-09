@@ -1,7 +1,7 @@
 Source: libwww-json-perl
 Section: perl
 Priority: optional
-Maintainer: Raphaël 'SurcouF' Bordet <surcouf@>
+Maintainer: Raphaël 'SurcouF' Bordet <surcouf@debianfr.net>
 Build-Depends: debhelper (>= 9.20120312),
  perl
 Build-Depends-Indep: libjson-xs-perl (>= 2.33),
